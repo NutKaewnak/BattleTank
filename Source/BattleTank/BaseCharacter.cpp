@@ -53,7 +53,7 @@ void ABaseCharacter::CalculateDead()
 void ABaseCharacter::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)
 {
 	isDead = false;
-	Health = 100;
+	Health = 1;
 
 	Super::PostEditChangeProperty(PropertyChangedEvent);
 
